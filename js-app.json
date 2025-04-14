@@ -1,0 +1,31 @@
+const idiomaSelector = document.getElementById("selectorIdioma");
+
+idiomaSelector.addEventListener("change", () => {
+  const idioma = idiomaSelector.value;
+  cargarIdioma(idioma);
+});
+
+function cargarIdioma(idioma) {
+  fetch(`lang/${idioma}.json`)
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById("serviciosTitulo").textContent = data.serviciosTitulo;
+      document.getElementById("serviciosTexto").textContent = data.serviciosTexto;
+      document.getElementById("tarifasTitulo").textContent = data.tarifasTitulo;
+
+      const tarifas = document.getElementById("listaTarifas");
+      tarifas.innerHTML = "";
+      data.tarifas.forEach(tarifa => {
+        const li = document.createElement("li");
+        li.textContent = tarifa;
+        tarifas.appendChild(li);
+      });
+
+      document.getElementById("contactoTitulo").textContent = data.contactoTitulo;
+      document.getElementById("contactoTexto").textContent = data.contactoTexto;
+    })
+    .catch(err => console.error("Error al cargar idioma:", err));
+}
+
+// Cargar idioma por defecto
+cargarIdioma("es");

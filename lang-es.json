@@ -1,0 +1,22 @@
+{
+  "serviciosTitulo": "Servicios",
+  "serviciosTexto": "Ofrezco desarrollo web moderno y accesible.",
+  "tarifasTitulo": "Tarifas",
+  "tarifas": [
+    "Landing Page - 120€",
+    "Web Completa - 300€",
+    "Mantenimiento mensual - 40€"
+  ],
+  "contactoTitulo": "Contacto",
+  "contactoTexto": "Puedes contactarme a través de email o redes sociales.",
+  "portfolioTitle": "Mi Portfolio",
+  "proyecto1Title": "Proyecto 1 - Página de presentación",
+  "proyecto1Desc": "Hice una versión sencilla de mi página de presentación.",
+  "proyecto2Title": "Proyecto 2 - Landing page de una cafetería",
+  "proyecto2Desc": "Aquí hice la página principal de una cafetería.",
+  "proyecto3Title": "Proyecto 3 - Feria Gastronómica de Galicia",
+  "proyecto3Desc": "Puse en práctica la creación de una página anunciando una feria gastronómica en tres idiomas: castellano, inglés y gallego, para lo que usé algo de JavaScript.",
+  "viewProject": "Ver Proyecto"
+}
+
+  

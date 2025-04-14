@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tu nombre - Desarrolladora Web</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="titulo">Tu nombre aquí</h1>
+    <nav>
+      <ul>
+        <li><a href="#servicios" id="navServicios">Servicios</a></li>
+        <li><a href="#tarifas" id="navTarifas">Tarifas</a></li>
+        <li><a href="#contacto" id="navContacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <select id="selectorIdioma">
+      <option value="es">Español</option>
+      <option value="en">English</option>
+      <option value="gl">Galego</option>
+    </select>
+  </header>
+
+  <section id="servicios">
+    <h2 id="serviciosTitulo"></h2>
+    <p id="serviciosTexto"></p>
+  </section>
+
+  <section id="tarifas">
+    <h2 id="tarifasTitulo"></h2>
+    <ul id="listaTarifas"></ul>
+  </section>
+<section id="tarifas">
+  <h2 data-lang="tarifasTitle">Tarifas</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">
+          <h3 data-lang="tarifa1Title">Página Web Básica</h3>
+        </div>
+        <div class="card-body">
+          <p data-lang="tarifa1Desc">Ideal para pequeñas empresas o proyectos personales.</p>
+          <p><strong data-lang="tarifaPrice">€200</strong></p>
+          <button class="btn btn-primary" data-lang="contactButton">Contáctame</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">
+          <h3 data-lang="tarifa2Title">Página Web Interactiva</h3>
+        </div>
+        <div class="card-body">
+          <p data-lang="tarifa2Desc">Perfecta para empresas que necesitan formularios, interactividad, etc.</p>
+          <p><strong data-lang="tarifaPrice">€500</strong></p>
+          <button class="btn btn-primary" data-lang="contactButton">Contáctame</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">
+          <h3 data-lang="tarifa3Title">Landing Page</h3>
+        </div>
+        <div class="card-body">
+          <p data-lang="tarifa3Desc">Ideal para campañas de marketing o promociones específicas.</p>
+          <p><strong data-lang="tarifaPrice">€300</strong></p>
+          <button class="btn btn-primary" data-lang="contactButton">Contáctame</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="portfolio">
+  <h2 data-lang="portfolioTitle">Mi Portfolio</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="assets/images/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+        <div class="card-body">
+          <h5 class="card-title" data-lang="proyecto1Title">Proyecto 1</h5>
+          <p class="card-text" data-lang="proyecto1Desc">Descripción breve de lo que hiciste en este proyecto.</p>
+          <a href="https://link-a-tu-proyecto.com" target="_blank" class="btn btn-primary" data-lang="viewProject">Ver Proyecto</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="assets/images/proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
+        <div class="card-body">
+          <h5 class="card-title" data-lang="proyecto2Title">Proyecto 2</h5>
+          <p class="card-text" data-lang="proyecto2Desc">Descripción breve de lo que hiciste en este proyecto.</p>
+          <a href="https://link-a-tu-proyecto.com" target="_blank" class="btn btn-primary" data-lang="viewProject">Ver Proyecto</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="assets/images/proyecto3.jpg" class="card-img-top" alt="Proyecto 3">
+        <div class="card-body">
+          <h5 class="card-title" data-lang="proyecto3Title">Proyecto 3</h5>
+          <p class="card-text" data-lang="proyecto3Desc">Descripción breve de lo que hiciste en este proyecto.</p>
+          <a href="https://link-a-tu-proyecto.com" target="_blank" class="btn btn-primary" data-lang="viewProject">Ver Proyecto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="contacto">
+    <h2 id="contactoTitulo"></h2>
+    <p id="contactoTexto"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Elena Lucía Guardia Martínez</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

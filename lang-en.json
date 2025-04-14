@@ -1,0 +1,22 @@
+{
+  "serviciosTitulo": "Services",
+  "serviciosTexto": "I offer modern and accessible web development.",
+  "tarifasTitulo": "Rates",
+  "tarifas": [
+    "Landing Page - €120",
+    "Full Website - €300",
+    "Monthly Maintenance - €40"
+  ],
+  "contactoTitulo": "Contact",
+  "contactoTexto": "You can reach me via email or social media.",
+  "portfolioTitle": "My Portfolio",
+  "proyecto1Title": "Project 1 - My Portfolio",
+  "proyecto1Desc": "I made the first version of my main page using HTML and CSS.",
+  "proyecto2Title": "Project 2 - Coffee Shop Landing Page",
+  "proyecto2Desc": "I made a landing page for a coffee shop.",
+  "proyecto3Title": "Project 3 - Galician Gastronomic Fair",
+  "proyecto3Desc": "I created a page about a gastronomic fair in Galicia.",
+  "viewProject": "View Project"
+}
+
+  
